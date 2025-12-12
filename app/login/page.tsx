@@ -131,14 +131,6 @@ export default function LoginPage() {
           </p>
         </div>
       </div>
-      
-      <style jsx global>{`
-        @media (min-width: 1024px) {
-          .desktop-only-split {
-            display: flex !important;
-          }
-        }
-      `}</style>
     </div>
   );
 }

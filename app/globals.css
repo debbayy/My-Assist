@@ -115,3 +115,13 @@ a {
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
+
+.desktop-only-split {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktop-only-split {
+    display: flex !important;
+  }
+}
