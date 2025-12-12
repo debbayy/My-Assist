@@ -26,12 +26,10 @@ export default function Nav() {
         <a href="#roles" style={{ fontWeight: 500 }}>Layanan</a>
         <a href="#" style={{ fontWeight: 500 }}>Kontak</a>
       </div>
-      <button onClick={() => {
-        console.log('Login clicked');
-      }}
+      <Link href="/login"
       className="btn btn-primary">
-        apasih ini
-      </button>
+        Masuk
+      </Link>
     </nav>
   );
 }
